@@ -92,9 +92,3 @@ english_sentences = [
     "AMqu n isPqI khix n AMqu ]",
     "hau hau krqI sB mueI sMpau iksY n nwil ]",
 ]
-
-result_unicode = alphabetize(unicode_sentences, type='unicode')
-print(result_unicode)  # Output: ['ਅੰਤੁ ਨ ਸਿਫਤੀ ਕਹਣਿ ਨ ਅੰਤੁ ॥', 'ਹਉ ਹਉ ਕਰਤੀ ਸਭ ਮੁਈ ਸੰਪਉ ਕਿਸੈ ਨ ਨਾਲਿ ॥', 'ਕੇਤੀਆ ਸੁਰਤੀ ਸੇਵਕ ਕੇਤੇ ਨਾਨਕ ਅੰਤੁ ਨ ਅੰਤੁ ॥੩੫॥', 'ਤੁਧੁ ਵਿਣੁ ਸਿਧੀ ਕਿਨੈ ਨ ਪਾਈਆ ॥', 'ਬਿਨੁ ਸਤਿਗੁਰ ਕਿਨੈ ਨ ਪਾਇਓ ਕਰਿ ਵੇਖਹੁ ਮਨਿ ਵੀਚਾਰਿ ॥']
-
-result_english = alphabetize(english_sentences, type='english')
-print(result_english)  # Output: ['AMqu n isPqI khix n AMqu ]', 'hau hau krqI sB mueI sMpau iksY n nwil ]', 'kyqIAw surqI syvk kyqy nwnk AMqu n AMqu ]35]', 'quDu ivxu isDI iknY n pweIAw ]', 'ibnu siqgur iknY n pwieE kir vyKhu min vIcwir ]']

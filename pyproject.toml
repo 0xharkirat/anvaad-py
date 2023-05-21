@@ -1,6 +1,18 @@
-[build-system]
-requires = [
-    "setuptools>=42",
-    "wheel"
+[project]
+name = "anvaad_py"
+version = "0.0.6"
+authors = [
+  { name="0xharkirat (Harkirat Singh)", email="info.sandhukirat23@gmail.com" },
 ]
-build-backend = "setuptools.build_meta"
+description = "A Python utility to translit gurmukhi, and convert it between ascii to unicode with ease! (Python version of anvaad-js)"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/0xharkirat/anvaad-py"
+"Bug Tracker" = "https://github.com/0xharkirat/anvaad-py"

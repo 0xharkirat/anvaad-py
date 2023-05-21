@@ -21,7 +21,7 @@ simplifications = [
     ['ਫ਼', 'ਫ'],
 ]
 
-def first_letters(words='', eng=False, simplify=False):
+def firstLetters(words='', eng=False, simplify=False):
     if words == '' or not isinstance(words, str):
         return words
     

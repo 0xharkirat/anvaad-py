@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/anvaad_py/__init__.py
+src/anvaad_py/alphabetize.py
+src/anvaad_py/ascii.py
+src/anvaad_py/firstLetters.py
+src/anvaad_py/mainLetters.py
+src/anvaad_py/unicode.py
+src/anvaad_py.egg-info/PKG-INFO
+src/anvaad_py.egg-info/SOURCES.txt
+src/anvaad_py.egg-info/dependency_links.txt
+src/anvaad_py.egg-info/top_level.txt

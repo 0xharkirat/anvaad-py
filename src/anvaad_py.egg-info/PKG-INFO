@@ -1,3 +1,17 @@
+Metadata-Version: 2.1
+Name: anvaad-py
+Version: 0.0.6
+Summary: A Python utility to translit gurmukhi, and convert it between ascii to unicode with ease! (Python version of anvaad-js)
+Author-email: "0xharkirat (Harkirat Singh)" <info.sandhukirat23@gmail.com>
+Project-URL: Homepage, https://github.com/0xharkirat/anvaad-py
+Project-URL: Bug Tracker, https://github.com/0xharkirat/anvaad-py
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # anvaad-py :: ਅਨੁਵਾਦ-ਪੀਵਾਏ 
 
 This is python version of [anvaad-js](https://github.com/KhalisFoundation/anvaad-js) 
@@ -100,7 +114,7 @@ unicode('Awie imlu gurisK Awie imlu qU myry gurU ky ipAwry ]');
 Returns **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Returns unicode text
 
 ```javascript
- * unicode('ਆਇ ਮਿਲੁ ਗੁਰਸਿਖ ਆਇ ਮਿਲੁ ਤੂ ਮੇਰੇ ਗੁਰੂ ਕੇ ਪਿਆਰੇ ॥', True);
+ * unicode('ਆਇ ਮਿਲੁ ਗੁਰਸਿਖ ਆਇ ਮਿਲੁ ਤੂ ਮੇਰੇ ਗੁਰੂ ਕੇ ਪਿਆਰੇ ॥', true);
  * // => 'Awie imlu gurisK Awie imlu qU myry gurU ky ipAwry ]'
 ```
 
