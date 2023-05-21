@@ -6,9 +6,9 @@ author_email = info.sandhukirat23@gmail.com
 description = A Python utility to translit gurmukhi, and convert it between ascii to unicode with ease! (Python version of anvaad-js)
 long_description = file: README.md
 long_description_content_type = text/markdown
-url = https://github.com/pypa/sampleproject
+url = https://github.com/0xharkirat/anvaad-py
 project_urls =
-    Bug Tracker = https://github.com/pypa/sampleproject/issues
+    Bug Tracker = https://github.com/0xharkirat/anvaad-py
 classifiers =
     Programming Language :: Python :: 3
     License :: OSI Approved :: MIT License
