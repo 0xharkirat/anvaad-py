@@ -17,7 +17,7 @@ pip install anvaad-py
 import unicode from anvaad_py
 
 * unicode('ਆਇ ਮਿਲੁ ਗੁਰਸਿਖ ਆਇ ਮਿਲੁ ਤੂ ਮੇਰੇ ਗੁਰੂ ਕੇ ਪਿਆਰੇ ॥', True)
- * // => 'Awie imlu gurisK Awie imlu qU myry gurU ky ipAwry ]'
+* // => 'Awie imlu gurisK Awie imlu qU myry gurU ky ipAwry ]'
 ```
 
 ### Table of Contents
