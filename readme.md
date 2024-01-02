@@ -6,7 +6,8 @@ This is python version of [anvaad-js](https://github.com/KhalisFoundation/anvaad
 
 ```bash
 # pip
-pip install anvaad-py
+pip install anvaad-py //for windows
+pip3 install anvaad-py //for mac
 ```
 
 ## API Documentation
@@ -14,9 +15,12 @@ pip install anvaad-py
 ## Usage
 
 ```python
-import unicode from anvaad_py
+from anvaad_py import unicode
 
-unicode('ਆਇ ਮਿਲੁ ਗੁਰਸਿਖ ਆਇ ਮਿਲੁ ਤੂ ਮੇਰੇ ਗੁਰੂ ਕੇ ਪਿਆਰੇ ॥', True)
+result = unicode('ਆਇ ਮਿਲੁ ਗੁਰਸਿਖ ਆਇ ਮਿਲੁ ਤੂ ਮੇਰੇ ਗੁਰੂ ਕੇ ਪਿਆਰੇ ॥', True)
+
+print(result)
+
 // => 'Awie imlu gurisK Awie imlu qU myry gurU ky ipAwry ]'
 ```
 
@@ -25,7 +29,6 @@ unicode('ਆਇ ਮਿਲੁ ਗੁਰਸਿਖ ਆਇ ਮਿਲੁ ਤੂ ਮ�
 -   [ascii](#ascii)
 -   [firstLetters](#firstletters)
 -   [mainLetters](#mainletters)
--   [translit](#translit)
 -   [unicode](#unicode)
 
 ## ascii
