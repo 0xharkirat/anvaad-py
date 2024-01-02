@@ -1,6 +1,7 @@
 # anvaad-py :: ਅਨੁਵਾਦ-ਪੀਵਾਏ 
 
 This is python version of [anvaad-js](https://github.com/KhalisFoundation/anvaad-js) 
+Hosted on Pypi - [anvaad-py](https://pypi.org/project/anvaad-py/)
 
 ## Installation
 
