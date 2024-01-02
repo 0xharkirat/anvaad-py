@@ -38,16 +38,20 @@ string of Gurmukhi characters
 
 **Parameters**
 
--   `string` **[string](https://developer.mozilla.org/docs/Web/python/Reference/Global_Objects/String)** The string of letters
+-   `string` The string of letters
 
 **Examples**
 
 ```python
-ascii('AmgAmqmgkp')
+from anvaad_py import ascii
+
+result = ascii('AmgAmqmgkp')
+
+print(result)
 // => ',065,109,103,065,109,113,109,103,107,112,'
 ```
 
-Returns **[string](https://developer.mozilla.org/docs/Web/python/Reference/Global_Objects/String)** Returns a single string of comma-separated ascii codes
+`string` Returns a single string of comma-separated ascii codes
 
 
 ## firstLetters
@@ -63,11 +67,15 @@ Retrieve the first letter of each word from a string
 **Examples**
 
 ```python
-firstLetters('Awie imlu gurisK Awie imlu qU myry gurU ky ipAwry ]')
+from anvaad_py import firstLetters
+
+result = firstLetters('Awie imlu gurisK Awie imlu qU myry gurU ky ipAwry ]')
+
+print(result)
 // => 'AmgAmqmgkp'
 ```
 
-Returns **[string](https://developer.mozilla.org/docs/Web/python/Reference/Global_Objects/String)** Returns a single string of characters
+`string` Returns a single string of characters
 
 
 ## mainLetters
@@ -83,11 +91,15 @@ Removes vowel symbols from a Gurmukhi string
 **Examples**
 
 ```python
-mainLetters('Awie imlu gurisK Awie imlu qU myry gurU ky ipAwry ]')
+from anvaad_py import mainLetters
+
+result = mainLetters('Awie imlu gurisK Awie imlu qU myry gurU ky ipAwry ]')
+
+print(result)
 // => 'Ae ml grsK Ae ml q mr gr k pAr'
 ```
 
-Returns **[string](https://developer.mozilla.org/docs/Web/python/Reference/Global_Objects/String)** Returns a single string of characters
+`string` Returns a single string of characters
 
 
 
@@ -105,18 +117,26 @@ Convert Gurmukhi script to Unicode and back again.
 **Examples**
 
 ```python
-unicode('Awie imlu gurisK Awie imlu qU myry gurU ky ipAwry ]')
-// => 'ਆਇ ਮਿਲੁ ਗੁਰਸਿਖ ਆਇ ਮਿਲੁ ਤੂ ਮੇਰੇ ਗੁਰੂ ਕੇ ਪਿਆਰੇ ॥'
+from anvaad_py import unicode
+
+gurmukhiResult = unicode('Awie imlu gurisK Awie imlu qU myry gurU ky ipAwry ]')
+
+print(f"gurmukhi results: {gurmukhiResult}")
+// => 'gurmukhi results: ਆਇ ਮਿਲੁ ਗੁਰਸਿਖ ਆਇ ਮਿਲੁ ਤੂ ਮੇਰੇ ਗੁਰੂ ਕੇ ਪਿਆਰੇ ॥'
 ```
 
 Returns **[string](https://developer.mozilla.org/docs/Web/python/Reference/Global_Objects/String)** Returns unicode text
 
 ```python
- * unicode('ਆਇ ਮਿਲੁ ਗੁਰਸਿਖ ਆਇ ਮਿਲੁ ਤੂ ਮੇਰੇ ਗੁਰੂ ਕੇ ਪਿਆਰੇ ॥', True)
- * // => 'Awie imlu gurisK Awie imlu qU myry gurU ky ipAwry ]'
+from anvaad_py import unicode
+
+unicodeResult = unicode('ਆਇ ਮਿਲੁ ਗੁਰਸਿਖ ਆਇ ਮਿਲੁ ਤੂ ਮੇਰੇ ਗੁਰੂ ਕੇ ਪਿਆਰੇ ॥', True)
+
+print(f"unicode results: {unicodeResult}")
+ * // => 'unicode results: Awie imlu gurisK Awie imlu qU myry gurU ky ipAwry ]'
 ```
 
-Returns **[string](https://developer.mozilla.org/docs/Web/python/Reference/Global_Objects/String)** Returns gurbani akhar ascii text
+`string` Returns gurbani akhar ascii text
 
 
 a [0xharkirat](https://github.com/0xharkirat/) (Harkirat Singh) production.
